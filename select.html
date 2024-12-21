@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Select SuperHero</title>
+    <link rel="stylesheet" href="selstyle.css" />
+    <link rel="icon" href="select_logo.jpg" />
+    <!-- Make sure this script is linked -->
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="heading">
+      <h1>Select Your SuperHero</h1>
+    </div>
+    <div class="superheroes">
+      <div class="images top">
+        <img src="ironman2.jpg" alt="Ironman Image" />
+        <div class="button-container">
+          <!-- Add onclick event for Ironman button -->
+          <button
+            type="button"
+            class="hero-button"
+            onclick="showLoadingMessage('ironman')"
+          >
+            Go to Ironman
+          </button>
+        </div>
+      </div>
+      <div class="images left">
+        <img src="thor.jpg" alt="Thor Image" />
+        <div class="button-container">
+          <!-- Add onclick event for Thor button -->
+          <button
+            type="button"
+            class="hero-button"
+            onclick="showLoadingMessage('thor')"
+          >
+            Go to Thor
+          </button>
+        </div>
+      </div>
+      <div class="images right">
+        <img src="cap.jpg" alt="Captain America Image" />
+        <div class="button-container">
+           <!-- Add onclick event for Captain America button -->
+           <button
+           type="button"
+           class="hero-button"
+           onclick="showLoadingMessage('cap')"
+         >
+           Go to Captain America
+         </button>
+        </div>
+      </div>
+      <div class="images bottom">
+        <img src="spider.jpg" alt="Spiderman Image" />
+        <div class="button-container">
+          <button
+            type="button"
+            class="hero-button"
+            onclick="showLoadingMessage('spiderman')"
+          >
+            Go to Spiderman
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
